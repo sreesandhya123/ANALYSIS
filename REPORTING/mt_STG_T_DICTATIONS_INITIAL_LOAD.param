@@ -1,0 +1,12 @@
+#USE_SECTIONS
+[DCF_DEV_PARAM].[STAGING_PARAM].[mt_STG_T_DICTATIONS_INITIAL_LOAD]
+$$Rawdata_DataBase=
+$$Sf_Rawdata_Conn=
+$$MaxDateQuery=SELECT MAX(LOADED_DATE) AS CURRENT_LOADED_DATE ,'T_DICTATIONS' AS TABLE_NAME FROM T_DICTATIONS
+$$Sf_Staging_Conn=
+$$Rawdata_Schema=
+$$Staging_DataBase=
+$$Stg_JobsTable=
+$$Staging_Schema=
+$$FlatFile_conn=
+[Global]
